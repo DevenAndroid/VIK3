@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_200">#D1336D</color>
+    <color name="pink_500">#D1336D</color>
+    <color name="pink_700">#D1336D</color>
+    <color name="teal_200">#AF1C52</color>
+    <color name="teal_700">#AF1C52</color>
+    <color name="black">#FF000000</color>
+    <color name="colorTextBlack">#191919</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorBlue">#4d96d5</color>
+    <color name="colorTextBlue">#4d96d5</color>
+    <color name="colorTextDark">#5f6c76</color>
+    <color name="colorView">#f7f8fe</color>
+    <color name="colorTextDarkHeading">#2e2e2e</color>
+    <color name="bgColorHome">#f8f9ff</color>
+    <color name="colorBottomBarBg">#FFFFFF</color>
+
+    <color name="colorStatusBar">#D1336D</color>
+    <color name="ColorButtonBg">#D1336D</color>
+    <color name="ColorTextPink">#D1336D</color>
+    <color name="ColorTransparent">#9CDC5285</color>
+    <color name="ColorView">#4B444444</color>
+    <color name="ColorGray">#eceef5</color>
+    <color name="ColorButtonBackground">#ffffff</color>
+
+    <color name="colorButtonTint">#D1336D</color>
+    <color name="bgColor">#f8f9ff</color>
+    <color name="bgColorOverlay">#33000000</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorButtonDarkFix">#484848</color>
+    <color name="colorEditLieFix">#dbdbdb</color>
+
+
+    <color name="whiteFixed">#FFFFFFFF</color>
+</resources>

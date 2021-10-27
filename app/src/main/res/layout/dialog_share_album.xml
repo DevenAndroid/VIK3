@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/colorBottomBarBg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:text="Song Name"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:textColor="@color/ColorTextPink"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textViewSinger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="Radio VIK3"
+                        android:fontFamily="@font/josefin_sans_semibold"
+                        android:textColor="@color/colorTextDark" />
+
+                    <TextView
+                        android:id="@+id/textViewSingerDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="28-06-2021"
+                        android:fontFamily="@font/josefin_sans_semibold"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/colorTextDark" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/share"
+                    android:textAllCaps="false"
+                    app:cornerRadius="32dp"
+                    app:backgroundTint="@color/ColorButtonBg"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    app:icon="@drawable/ic_outline_share_24"
+                    android:paddingStart="32dp"
+                    android:paddingEnd="32dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="4dp"
+            android:src="@drawable/ic_baseline_highlight_off_24" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

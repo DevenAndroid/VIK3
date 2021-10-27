@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.ProfileFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="2dp"
+        app:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:contentDescription="@string/app_images" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/app_images" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/colorTextBlue"
+            app:backgroundTint="@color/white"
+            android:textColor="@color/colorTextBlue"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            app:icon="@drawable/ic_baseline_arrow_back_ios_24"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconTint="@color/colorTextBlue"
+            android:text="@string/back" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/colorTextBlue"
+            app:backgroundTint="@color/white"
+            android:textColor="@color/colorTextBlue"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="16dp"
+            app:icon="@drawable/ic_baseline_arrow_back_ios_24"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconTint="@color/colorTextBlue"
+            android:text="@string/share" />
+    </LinearLayout>
+
+</LinearLayout>

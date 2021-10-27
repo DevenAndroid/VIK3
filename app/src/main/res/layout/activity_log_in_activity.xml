@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_log_in_bg"
+    android:orientation="vertical"
+    tools:context=".ui.activities.LogInActivity">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/info"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_log_in_bg" />
+
+    <LinearLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@color/colorTransparent"
+            app:hintEnabled="false"
+            app:startIconDrawable="@drawable/img_email_login"
+            app:startIconTint="@color/whiteFixed">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTransparent"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="0dp"
+                android:textColor="@color/whiteFixed"
+                android:textColorHint="@color/whiteFixed"
+                app:backgroundTint="@color/colorEditLieFix" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@color/colorTransparent"
+            app:backgroundTint="@color/colorEditLieFix"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/whiteFixed"
+            app:startIconDrawable="@drawable/img_password"
+            app:startIconTint="@color/whiteFixed">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTransparent"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="0dp"
+                android:textColor="@color/whiteFixed"
+                android:textColorHint="@color/whiteFixed" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textViewForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="end"
+            android:text="Forgot Password"
+            android:textColor="@color/whiteFixed" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@color/colorButtonDarkFix"
+            android:text="LogIn"
+            app:backgroundTint="@color/colorButtonDarkFix"
+            app:cornerRadius="6dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageFacebook"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginEnd="3dp"
+                android:src="@drawable/img_facebook_log_in" />
+
+            <ImageView
+                android:id="@+id/imageGoogle"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="3dp"
+                android:src="@drawable/img_google_log_in" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="@string/don_t_have_account_sign_up"
+            android:textColor="@color/whiteFixed"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

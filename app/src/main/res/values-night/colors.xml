@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FFFFFF</color>
+    <color name="white">#23252e</color>
+    <color name="colorTextBlue">#AF1C52</color>
+    <color name="colorBlue">#D6D6D6</color>
+    <color name="colorBottomBarBg">#23252e</color>
+
+    <color name="colorTextBlack">#62666c</color>
+    <color name="colorTextDark">#62666c</color>
+    <color name="ColorTextPink">#62666c</color>
+
+    <color name="colorTextDarkHeading">#70747b</color>
+
+    <color name="ColorGray">#24282e</color>
+
+    <color name="colorStatusBar">#171a1f</color>
+    <color name="ColorButtonBackground">#171a1f</color>
+
+    <color name="colorButtonDarkFix">#484848</color>
+    <color name="ColorButtonBg">#171a1f</color>
+    <color name="colorButtonTint">#62666c</color>
+    <color name="bgColorHome">#171a1f</color>
+    <color name="whiteFixed">#FFFFFFFF</color>
+    <color name="ColorTransparent">#9C1B1718</color>
+    <color name="colorView">#34363e</color>
+
+</resources>

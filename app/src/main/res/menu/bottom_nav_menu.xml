@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_radio"
+        android:icon="@drawable/img_menu_radio"
+        android:title="@string/title_radio" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/img_menu_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/img_menu_more"
+        android:title="@string/title_more" />
+
+</menu>

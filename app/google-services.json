@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "496093696502",
+    "firebase_url": "https://vik3-2a82a-default-rtdb.firebaseio.com",
+    "project_id": "vik3-2a82a",
+    "storage_bucket": "vik3-2a82a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496093696502:android:d8625ed8153e9eacf3b7d7",
+        "android_client_info": {
+          "package_name": "com.vik3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496093696502-fe6n9n493hcnmudma04edf8hao9btuap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqQ__c87wjIMoIqyzkAWUqq6Vtj_aTVbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496093696502-fe6n9n493hcnmudma04edf8hao9btuap.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "496093696502-317bdqpn8l9m9nml5jer67k78tua3jqf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "apple.vik3"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

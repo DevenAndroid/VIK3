@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColorHome"
+    android:orientation="vertical"
+    tools:context=".ui.activities.SettingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/img_header"
+        android:elevation="2dp"
+        app:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            app:tint="@color/whiteFixed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/settings"
+            android:textColor="@color/whiteFixed"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/notifications"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/colorTextDarkHeading"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textViewDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:text="@string/verse_of_the_day"
+                android:textColor="@color/colorTextDark" />
+
+            <Switch
+                android:id="@+id/switchVerseOfTheDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:trackTint="@color/black"
+                android:thumbTint="@color/whiteFixed" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/other"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorTextDarkHeading"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textViewPrivacyPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/colorTextDark"
+                android:drawableTint="@color/colorTextDark"
+                app:drawableEndCompat="@drawable/img_next_arrow" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textViewWriteReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableTint="@color/colorTextDark"
+                android:text="@string/write_a_review"
+                android:textSize="16sp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:textColor="@color/colorTextDark"
+                app:drawableEndCompat="@drawable/img_next_arrow" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:background="@color/white"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:text="@string/dark_theme"
+                android:textColor="@color/colorTextDark" />
+
+            <Switch
+                android:id="@+id/switchDarkTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="@color/whiteFixed"
+                android:trackTint="@color/black"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+            <!--                android:id="@id/textViewLanguageSelect"-->
+
+            <TextView
+                android:id="@+id/textViewLanguageSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/language"
+                android:textSize="16sp"
+                android:drawableTint="@color/colorTextDark"
+                app:drawableEndCompat="@drawable/img_next_arrow"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:textColor="@color/colorTextDark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2.8"
+                android:textSize="16sp"
+                android:visibility="gone"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:text="@string/english"
+                android:gravity="end"
+                android:textColor="@color/colorTextDark"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColorHome"
+    tools:context=".ui.dashboard.RadioFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:background="@drawable/img_bg_new">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="24dp">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp"
+                        app:strokeColor="@color/white"
+                        app:strokeWidth="3dp">
+
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/img_vik"/>
+                    </com.google.android.material.card.MaterialCardView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:paddingStart="16dp"
+                        android:paddingBottom="14dp">
+
+                        <TextView
+                            android:id="@+id/textViewName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/josefin_sans_semibold"
+                            android:text="This is the title"
+                            android:maxLines="3"
+                            android:ellipsize="end"
+                            android:textColor="@color/whiteFixed"
+                            android:textSize="32sp" />
+
+                        <TextView
+                            android:id="@+id/textViewSinger"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:fontFamily="@font/josefin_sans_semibold"
+                            android:text="Lorem ipsum text Lorem ipsum text  ipsum text ipsum text ipsum text "
+                            android:textColor="@color/whiteFixed" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonSleep"
+                    android:layout_width="100dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginBottom="18dp"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/sleep"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTextDark"
+                    app:backgroundTint="@color/ColorButtonBackground"
+                    app:cornerRadius="32dp"
+                    app:icon="@drawable/ic_baseline_access_time_24"
+                    app:iconGravity="textStart"
+                    app:iconPadding="8dp"
+                    app:iconSize="21dp"
+                    app:iconTint="@color/colorButtonTint" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonShare"
+                    android:layout_width="100dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/share"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTextDark"
+                    app:backgroundTint="@color/ColorButtonBackground"
+                    app:cornerRadius="32dp"
+                    app:icon="@drawable/ic_outline_share_24"
+                    app:iconGravity="textStart"
+                    app:iconSize="19dp"
+                    app:iconTint="@color/colorButtonTint" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-36dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    app:cardCornerRadius="360dp">
+
+                    <ImageView
+                        android:id="@+id/button"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:contentDescription="@string/app_images"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/img_play" />
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:id="@+id/imageBg"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/app_images"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_button_bg" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewLastPlayedSong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/josefin_sans_semibold"
+                    android:text="@string/last_song_played"
+                    android:textColor="@color/colorTextDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:nestedScrollingEnabled="false"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_song_list" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

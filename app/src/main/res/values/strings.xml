@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">VIK3</string>
+    <string name="app_images">Image</string>
+    <string name="title_home">Home</string>
+    <string name="title_radio">Radio</string>
+    <string name="title_more">More</string>
+
+    <string name="settings">SETTINGS</string>
+    <string name="notifications">Notifications</string>
+    <string name="verse_of_the_day">Verse of the Day</string>
+    <string name="other">Other</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="write_a_review">Write a review</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="share">Share</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="more">MORE</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_on_social">Contact on Social</string>
+    <string name="sleep">Sleep</string>
+    <string name="last_song_played">Last Song Played</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="stay_with_us">Stay with us!</string>
+    <string name="subscribe_to_get_updates_about_vik3">Subscribe to get updates about vik3.</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="submit">Submit</string>
+    <string name="read_more">READ MORE</string>
+    //sleep times
+    <string name="min_15">"15 M"</string>
+    <string name="min_30">"30 M"</string>
+    <string name="min_45">"45 M"</string>
+    <string name="min_60">"60 M"</string>
+    <string name="minute_15">"15 Minute"</string>
+    <string name="minute_30">"30 Minute"</string>
+    <string name="minute_45">"45 Minute"</string>
+    <string name="minute_60">"60 Minute"</string>
+    <string name="timer_off">"Timer Off"</string>
+
+    <string name="back">Back</string>
+
+    <string name="profile">Profile</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+
+    <string name="email_us">Email us</string>
+    <string name="prayer">Prayer</string>
+    <string name="question_and_feedback">Question &amp; Feedback</string>
+    <string name="visit_our_website">Visit Our Website</string>
+    <string name="text_us">Text us</string>
+    <string name="mail_alert">Mail not Configured.</string>
+    <string name="posted_by">Posted By </string>
+    <string name="posted_on">Posted on </string>
+    <string name="ream_more">Read More</string>
+
+    <string name="mesage_subscribe">Thanks. Your first bible verse will be delivered to you soon</string>
+    <string name="don_t_have_account_sign_up">Don\'t have account? <font color="#D1336D"> Sign up</font></string>
+
+</resources>

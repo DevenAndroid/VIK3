@@ -1,0 +1,2 @@
+rootProject.name = "VIK3"
+include ':app'
